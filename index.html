@@ -9,44 +9,49 @@
 </head>
 <body>
    
-     <form id="Calculator">
-        <input name="display" id="display">
-        <button id="clearMem" class="oper" onclick="clearBtn()">AC</button>
-
+     <section>
+       <div class="container">
+        
+        <div class="buttons">
+        <div id="display"></div>
+        <button id="clearMem" class="oper">AC</button>
+    
 
         <div>
-            <button type="button" class="digit" onclick="btn7()">7</button>
-            <button type="button" class="digit" onclick="btn8()">8</button>
-            <button type="button" class="digit"  onclick="btn9()">9</button>
-            <button type="button" id="plus" class="oper" onclick="plusBtn()">+</button>
+            <button type="button" class="button">7</button>
+            <button type="button" class="button">8</button>
+            <button type="button" class="button">9</button>
+            <button type="button" id="plus" class="button">+</button>
         </div>
 
         <div>
-          <button type="button" class="digit" onclick="btn4()">4</button>
-          <button type="button" class="digit" onclick="btn5()">5</button>
-          <button type="button" class="digit" onclick="btn6()">6</button>
-          <button type="button" id="minus" class="oper" onclick="minusBtn()" >-</button>
+          <button type="button" class="button">4</button>
+          <button type="button" class="button">5</button>
+          <button type="button" class="button">6</button>
+          <button type="button" id="minus" class="oper">-</button>
         </div>
 
         <div>
-          <button type="button" class="digit" onclick="btn1()">1</button>
-          <button type="button" class="digit" onclick="btn2()">2</button>
-          <button type="button" class="digit" onclick="btn3()">3</button>          
-          <button type="button" id="divide" class="oper" onclick="divideBtn()" >/</button>
+          <button type="button" class="button">1</button>
+          <button type="button" class="button">2</button>
+          <button type="button" class="button">3</button>          
+          <button type="button" id="divide" class="button">/</button>
         </div>
 
         <div>
-          <button type="button" id="decimal"  class="oper" onclick="decimalBtn()">.</button>
-          <button type="button" class="digit" onclick="btn0()">0</button>
-          <button type="button" id="equal" 	class="oper" onclick="equalsBtn()">=</button>
-          <button type="button" id="multiply" class="oper" onclick="multiplyBtn()">x</button>
+          <button type="button" id="button"  class="button">.</button>
+          <button type="button" class="button">0</button>
+          <button type="button" id="equal" 	class="button">=</button>
+          <button type="button" id="multiply" class="button">x</button>
       </div>
         </div>
-     </form>       
+      </div>
+     </section>
         
         
         
       </div>
     <script src="app.js"></script>
+    
 </body>
 </html>
