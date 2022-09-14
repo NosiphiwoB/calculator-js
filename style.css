@@ -1,15 +1,43 @@
-button {
-    width: 59px;
-    height: 50px;
+.container {
+    max-width: 400px;
+    margin: 10hv auto 0 auto;
+    box-shadow: 0px 0px 43px 17px rgb(153,153,153,1);
 }
 
 #display {
-height: 42px;
-width:160px;
-border-style:solid;
-border-color:black;
+    text-align: right;
+    height:70px;
+    line-height: 70px;
+    padding: 16px 8px;
+    font-size: 25px;
+    width: 70px;
 }
 
-.button {
+.buttons {
+    display: grid;
+    border-bottom: 1px solid #999;
+    border-left: 1px solid #999;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.buttons >div {
+    border-top: 1px solid #999;
+    border-right: 1px solid #999;
+}
+
+.buttons {
+    border: 0.5 solid #999;
+    line-height: 100px;
     text-align: center;
 }
+
+
+
+
+
+
+
+
+
+
+
