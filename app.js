@@ -8,7 +8,7 @@ buttons.map(button => {
 			case "AC":
 				display.innerText = " ";
 				break;
-				case "C":
+				case "backspace":
 					display.innerText = display.innerText.slice(0, -1);
 					break;
             case "=":
